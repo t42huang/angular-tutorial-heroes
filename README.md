@@ -46,3 +46,7 @@ ng generate component heroes
 
 - [Create the app](https://angular.io/tutorial/toh-pt0)
 - [1. The hero editor](https://angular.io/tutorial/toh-pt1)
+
+### Other references
+
+- [Pipes](https://angular.io/guide/pipes)
