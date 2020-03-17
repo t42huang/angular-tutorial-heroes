@@ -45,8 +45,21 @@ ng generate component heroes
 ## Reference
 
 - [Create the app](https://angular.io/tutorial/toh-pt0)
+  - You created the initial application structure using the Angular CLI.
+  - You learned that Angular components display data.
+  - You used the double curly braces of interpolation to display the app title.
 - [1. The hero editor](https://angular.io/tutorial/toh-pt1)
+  - You used the CLI to create a second HeroesComponent.
+  - You displayed the HeroesComponent by adding it to the AppComponent shell.
+  - You applied the UppercasePipe to format the name.
+  - You used two-way data binding with the ngModel directive.
+  - You learned about the AppModule.
+  - You imported the FormsModule in the AppModule so that Angular would recognize and apply the ngModel directive.
+  - You learned the importance of declaring components in the AppModule and appreciated that the CLI declared it for you.
 
 ### Other references
 
 - [Pipes](https://angular.io/guide/pipes)
+- [Angular CLI](https://angular.io/cli)
+- [NgModule](https://angular.io/guide/ngmodules)
+- [Lifecycle hooks](https://angular.io/guide/lifecycle-hooks)
