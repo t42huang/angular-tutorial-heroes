@@ -56,6 +56,7 @@ ng generate component heroes
   - You learned about the AppModule.
   - You imported the FormsModule in the AppModule so that Angular would recognize and apply the ngModel directive.
   - You learned the importance of declaring components in the AppModule and appreciated that the CLI declared it for you.
+- [2. Display a selection list](https://angular.io/tutorial/toh-pt2)
 
 ### Other references
 
