@@ -88,6 +88,7 @@ ng generate service message
   - The component's ngOnInit lifecycle hook calls the HeroService method, not the constructor.
   - You created a MessageService for loosely-coupled communication between classes.
   - The HeroService injected into a component is created with another injected service, MessageService.
+- [5. Add in-app navigation with routing](https://angular.io/tutorial/toh-pt5)
 
 ### Other references
 
@@ -102,3 +103,6 @@ ng generate service message
   - [Property binding](https://angular.io/guide/template-syntax#property-binding)
 - [Dependency Injection](https://angular.io/guide/dependency-injection)
 - [Providers](https://angular.io/guide/providers)
+- [RouterLink](https://angular.io/api/router/RouterLink)
+
+- [RxJS](https://rxjs-dev.firebaseapp.com/)
