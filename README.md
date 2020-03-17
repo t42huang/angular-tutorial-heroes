@@ -49,6 +49,8 @@ ng generate service hero
 # create a component to display messages
 ng generate component messages
 
+# creating an injectable, app-wide MessageService for sending messages to be displayed
+ng generate service message
 ```
 
 ## Reference
