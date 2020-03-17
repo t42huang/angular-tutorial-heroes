@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Notes
 
 ```bash
-# create the app with all defaults
+# create the app with all defaults using Angular CLI commands
 ng new angular-tour-of-heroes
 
 # launch the app
@@ -37,8 +37,12 @@ cd angular-tour-of-heroes
 ng serve --open
 ## The --open flag opens a browser to http://localhost:4200/.
 
+# generate a new component
+ng generate component heroes
+
 ```
 
 ## Reference
 
-- https://angular.io/tutorial/toh-pt0
+- [Create the app](https://angular.io/tutorial/toh-pt0)
+- [1. The hero editor](https://angular.io/tutorial/toh-pt1)
