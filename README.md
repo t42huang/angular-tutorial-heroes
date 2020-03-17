@@ -87,3 +87,4 @@ ng generate service hero
   - [Inputs & Outputs](https://angular.io/guide/template-syntax#inputs-outputs)
   - [Property binding](https://angular.io/guide/template-syntax#property-binding)
 - [Dependency Injection](https://angular.io/guide/dependency-injection)
+- [Providers](https://angular.io/guide/providers)
