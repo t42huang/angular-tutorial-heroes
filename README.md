@@ -65,3 +65,4 @@ ng generate component heroes
 - [NgModule](https://angular.io/guide/ngmodules)
 - [Lifecycle hooks](https://angular.io/guide/lifecycle-hooks)
 - [Event Binding](https://angular.io/guide/template-syntax#event-binding)
+- [Template Syntax - Class Binding](https://angular.io/guide/template-syntax#class-binding)
