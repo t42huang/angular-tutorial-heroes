@@ -51,6 +51,9 @@ ng generate component messages
 
 # creating an injectable, app-wide MessageService for sending messages to be displayed
 ng generate service message
+
+# create a component for the dashboard
+ng generate component dashboard
 ```
 
 ## Reference
