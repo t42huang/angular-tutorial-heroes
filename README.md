@@ -37,8 +37,11 @@ cd angular-tour-of-heroes
 ng serve --open
 ## The --open flag opens a browser to http://localhost:4200/.
 
-# generate a new component
+# generate a component to display list heroes
 ng generate component heroes
+
+# generate a component to display hero details page
+ng generate component hero-detail
 
 ```
 
@@ -62,6 +65,7 @@ ng generate component heroes
   - You used *ngFor to display a list.
   - You used *ngIf to conditionally include or exclude a block of HTML.
   - You can toggle a CSS style class with a class binding.
+- [3. Create a feature component](https://angular.io/tutorial/toh-pt3)
 
 ### Other references
 
