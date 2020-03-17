@@ -43,6 +43,9 @@ ng generate component heroes
 # generate a component to display hero details page
 ng generate component hero-detail
 
+# create a service - hero
+ng generate service hero
+
 ```
 
 ## Reference
@@ -69,6 +72,8 @@ ng generate component hero-detail
   - You created a separate, reusable HeroDetailComponent.
   - You used a property binding to give the parent HeroesComponent control over the child HeroDetailComponent.
   - You used the @Input decorator to make the hero property available for binding by the external HeroesComponent.
+- [4. Add services](https://angular.io/tutorial/toh-pt4)
+  - Components shouldn't fetch or save data directly and they certainly shouldn't knowingly present fake data. They should focus on presenting data and delegate data access to a service.
 
 ### Other references
 
@@ -81,4 +86,4 @@ ng generate component hero-detail
   - [Class Binding](https://angular.io/guide/template-syntax#class-binding)
   - [Inputs & Outputs](https://angular.io/guide/template-syntax#inputs-outputs)
   - [Property binding](https://angular.io/guide/template-syntax#property-binding)
-
+- [Dependency Injection](https://angular.io/guide/dependency-injection)
