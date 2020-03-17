@@ -57,6 +57,11 @@ ng generate component heroes
   - You imported the FormsModule in the AppModule so that Angular would recognize and apply the ngModel directive.
   - You learned the importance of declaring components in the AppModule and appreciated that the CLI declared it for you.
 - [2. Display a selection list](https://angular.io/tutorial/toh-pt2)
+  - The Tour of Heroes app displays a list of heroes in a Master/Detail view.
+  - The user can select a hero and see that hero's details.
+  - You used *ngFor to display a list.
+  - You used *ngIf to conditionally include or exclude a block of HTML.
+  - You can toggle a CSS style class with a class binding.
 
 ### Other references
 
