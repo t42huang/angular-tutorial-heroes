@@ -46,6 +46,9 @@ ng generate component hero-detail
 # create a service - hero
 ng generate service hero
 
+# create a component to display messages
+ng generate component messages
+
 ```
 
 ## Reference
