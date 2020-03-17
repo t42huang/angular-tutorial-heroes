@@ -66,6 +66,9 @@ ng generate component hero-detail
   - You used *ngIf to conditionally include or exclude a block of HTML.
   - You can toggle a CSS style class with a class binding.
 - [3. Create a feature component](https://angular.io/tutorial/toh-pt3)
+  - You created a separate, reusable HeroDetailComponent.
+  - You used a property binding to give the parent HeroesComponent control over the child HeroDetailComponent.
+  - You used the @Input decorator to make the hero property available for binding by the external HeroesComponent.
 
 ### Other references
 
