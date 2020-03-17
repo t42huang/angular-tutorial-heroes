@@ -104,6 +104,7 @@ ng generate component dashboard
   - [Class Binding](https://angular.io/guide/template-syntax#class-binding)
   - [Inputs & Outputs](https://angular.io/guide/template-syntax#inputs-outputs)
   - [Property binding](https://angular.io/guide/template-syntax#property-binding)
+  - [Interpolation](https://angular.io/guide/template-syntax#interpolation)
 - [Dependency Injection](https://angular.io/guide/dependency-injection)
 - [Providers](https://angular.io/guide/providers)
 - [RouterLink](https://angular.io/api/router/RouterLink)
