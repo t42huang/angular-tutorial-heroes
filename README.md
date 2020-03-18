@@ -63,6 +63,10 @@ npm install angular-in-memory-web-api --save
 ng generate service InMemoryData
 
 ng update @angular/cli @angular/core
+
+
+# create a component to do searches
+ng generate component hero-search
 ```
 
 ## Reference
