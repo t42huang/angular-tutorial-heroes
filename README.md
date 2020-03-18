@@ -72,6 +72,8 @@ ng generate component hero-search
 
 ## Reference
 
+- [Angular Tutorial](https://angular.io/tutorial)
+
 - [Create the app](https://angular.io/tutorial/toh-pt0)
   - You created the initial application structure using the Angular CLI.
   - You learned that Angular components display data.
