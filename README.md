@@ -54,6 +54,15 @@ ng generate service message
 
 # create a component for the dashboard
 ng generate component dashboard
+
+
+# install In-Memory Web API to test and demo CRUD operations over a RESTy API
+npm install angular-in-memory-web-api --save
+
+# create an InMemoryData service
+ng generate service InMemoryData
+
+ng update @angular/cli @angular/core
 ```
 
 ## Reference
@@ -100,6 +109,7 @@ ng generate component dashboard
   - You refactored a tightly-coupled master/detail view into a routed detail view.
   - You used router link parameters to navigate to the detail view of a user-selected hero.
   - You shared the HeroService among multiple components.
+- [6. Get data from a server](https://angular.io/tutorial/toh-pt6)
 
 ### Other references
 
@@ -116,5 +126,6 @@ ng generate component dashboard
 - [Dependency Injection](https://angular.io/guide/dependency-injection)
 - [Providers](https://angular.io/guide/providers)
 - [RouterLink](https://angular.io/api/router/RouterLink)
+- [In-Memory Web API](https://github.com/angular/in-memory-web-api)
 
 - [RxJS](https://rxjs-dev.firebaseapp.com/)
