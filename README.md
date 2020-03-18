@@ -62,6 +62,7 @@ npm install angular-in-memory-web-api --save
 # create an InMemoryData service
 ng generate service InMemoryData
 
+# need to update the angular version due to bug in TypeScript old version
 ng update @angular/cli @angular/core
 
 
@@ -114,6 +115,12 @@ ng generate component hero-search
   - You used router link parameters to navigate to the detail view of a user-selected hero.
   - You shared the HeroService among multiple components.
 - [6. Get data from a server](https://angular.io/tutorial/toh-pt6)
+  - You added the necessary dependencies to use HTTP in the app.
+  - You refactored HeroService to load heroes from a web API.
+  - You extended HeroService to support post(), put(), and delete() methods.
+  - You updated the components to allow adding, editing, and deleting of heroes.
+  - You configured an in-memory web API.
+  - You learned how to use observables.
 
 ### Other references
 
@@ -130,6 +137,6 @@ ng generate component hero-search
 - [Dependency Injection](https://angular.io/guide/dependency-injection)
 - [Providers](https://angular.io/guide/providers)
 - [RouterLink](https://angular.io/api/router/RouterLink)
-- [In-Memory Web API](https://github.com/angular/in-memory-web-api)
-
 - [RxJS](https://rxjs-dev.firebaseapp.com/)
+- [In-Memory Web API](https://github.com/angular/in-memory-web-api)
+- [Architecture](https://angular.io/guide/architecture)
