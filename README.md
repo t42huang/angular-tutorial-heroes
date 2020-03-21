@@ -1,6 +1,6 @@
 # AngularTourOfHeroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+This project was a walk through the [Angular Tutorial](https://angular.io/tutorial), with an additional part of deploying onto Heroku, as demoed at <https://tinas-angular-heroes.herokuapp.com/>.
 
 ## Development server
 
